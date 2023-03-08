@@ -123,4 +123,35 @@ our files with notepad ++. And then we have to upload the sketch data again.
 
 ![](https://lh5.googleusercontent.com/orQc5PuuMYOnKICi5VhFbqRws1pMfbjgPQohSMTYVQy6HtaIdl1uATJh2x2RlIFAe2z43_uEqgJH3sX4EuPCSklvsJBWcGNFXYD9VW3kE0u12kqtWFeikS9dy1TZZSAMZTXEgLVl6sSCSL6JXsOCPy8)
 
-![](https://lh4.googleusercontent.com/zikIke4-GwMFXFvhgG2h3Jdkyhu1y8ugQO86WbAJW7edaV8XmDqBcKJKGdgDKJVfRZOPYiYMd7Lkr2_CgX8XnPZU7rPl9j9nrrdIdgp0cdMgfBE7mjZvaxB_83XWiOdMFOsxLHZnTYUnIL-u3T1-NGc)
+![](https://lh4.googleusercontent.com/zikIke4-GwMFXFvhgG2h3Jdkyhu1y8ugQO86WbAJW7edaV8XmDqBcKJKGdgDKJVfRZOPYiYMd7Lkr2_CgX8XnPZU7rPl9j9nrrdIdgp0cdMgfBE7mjZvaxB_83XWiOdMFOsxLHZnTYUnIL-u3T1-NGc)Day 4 (3 march):
+================
+
+Objective: DHT sensor
+
+We needed to follow the steps on a website and then set the DHT sensor up. (<https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/>)
+
+We then needed to install 2 libraries. It could be done in the arduino IDE itself or with a link.
+
+<https://github.com/adafruit/DHT-sensor-library> 
+
+![](https://lh5.googleusercontent.com/ShfU3AIm6IU4zwi6c4PCPUAjREgrjs_NANgvwRcTrYivGTRHD2aZQT1zJSlkHqFNaKwKWu19fsCsMFitzGI-Pxh6p8uJGu3cSONSlal-I8MEDApwuwiwP6jcF3SBgK-Z48ISBU50SSnIJ6MP0SMJCVE)
+
+<https://github.com/adafruit/Adafruit_Sensor> 
+
+![](https://lh6.googleusercontent.com/Kf8aadUH0DwlmDoAKxXB3DezGEcNUsrVPwKCwcrufjt9gzV8UL-9HBAq5UQJGQNLjvHMBhEGr4RGW5jWigGHbxOTdNwojpt47UJ8ZfpQIR9_q4lNUd5b-DtKFIu6ODBReoFWc9-FM0vIAEgInJFbCnY)
+
+Then we needed to copy the code from the website and make some changes, for example we
+
+are using the DHT11 so we needed to comment the rest out. And we also needed to change
+
+the baudrate to 115200.
+
+![](https://lh3.googleusercontent.com/WxvLrGKeka_tJwtoABBr0W-gT-HRLKzva-CnGk6PseFAeY0-TXTohOooGRIqgtrQchlwG5PYL5ACqwPES32QhywOO8FiwXdEzJJVfHos0t2_5GAkLslkIqgsbY8i0UsXmQEhXzFJXwgSTX0FhgfOo4Y)
+
+![](https://lh6.googleusercontent.com/XjAxWTzIwIgY3Dpoz9T6vsh999u75DXoq9odp_L2nPGdgFmMSJQ3fzwUBhx3x2B45hpuSTNksPslUdYMrUIthRkjanom7onH-AD2BeXmy-qW2auOpeBnqOkONriwjGr0UDyQsWxeTLjoUme8nVIYj_w)
+
+If we want to make a web, we follow this link. <https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-web-server-arduino-ide/>
+
+It has the same steps as the previous one. Only this one goes further and we get a web. 
+
+![](https://lh5.googleusercontent.com/6Xk_cVISxOw7PKvsHLZOY3t4qP2U-luleLNmDKKCPabEWctgs27mi_mseLeKsDnE5sV6Yu5YWND0oqe3__N7h0CTpqLvMVLdHOW85HIPiYAOYG73_qhr5lLq7kUzjVlsaCmQnSjjA1__iA18wyeOVss)
