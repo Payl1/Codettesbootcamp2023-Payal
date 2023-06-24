@@ -231,7 +231,8 @@ This code can be found here:
 
 (There are some things wrong with this code because I accidentally changed it)
 
-We need to host the app with the 3000 port. It listens for requests on the port 3000
+We need to host the app with the 3000 port. It listens for requests on the port 3000.
+
 Day 7 (14 april):
 =================
 
